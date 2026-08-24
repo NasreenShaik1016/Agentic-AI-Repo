@@ -178,13 +178,4 @@ Code
 problem_statement.txt      (optional)
 README.md
 requirements.txt
-## **11. Future Enhancements**
-- Add LangGraph workflow for agentic behavior
 
-- Add UI using Streamlit or FastAPI
-
-- Add multi‑document retrieval
-
-- Add evaluation metrics (BLEU, ROUGE, RAGAS)
-
-Add caching for faster retrieval
