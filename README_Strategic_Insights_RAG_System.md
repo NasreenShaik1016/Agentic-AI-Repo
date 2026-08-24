@@ -68,9 +68,16 @@ The notebook includes:
 Here is the conceptual workflow:
 
 Code
+Indexing Phase (offline / once per document)
+--------------------------------------------
 PDF Document → Text Extraction → Chunking → Embeddings → Vector Store (Chroma)
-                     ↓                                         ↑
-                 User Query → Semantic Retrieval → LLM → Final Answer
+
+
+Query Phase (online / per question)
+-----------------------------------
+User Query → Query Embedding → Similarity Search in Vector Store (Chroma)
+           → Top-k Relevant Chunks → LLM (GPT-4o-mini) with Context → Final Answer
+
 If you want, I can generate a polished PNG diagram for your repo.
 
 ## **5. Tech Stack**
