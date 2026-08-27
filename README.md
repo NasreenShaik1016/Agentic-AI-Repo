@@ -1,2 +1,2 @@
-# Strategic_Insights_RAG_System
-A Retrieval Augmented Generation (RAG) system that extracts accurate insights from long business reports using semantic search , vector embeddings,  and LLM based answer generation.  Built to help analysts quickly understand dense documents like HBR’s “How Apple Is Organized for Innovation” without manually reading the entire report.
+# Agentic AI Repo
+A collection of agentic AI and RAG (Retrieval‑Augmented Generation) notebooks showcasing practical implementations of modern AI systems. This repository includes experiments with RAG pipelines, LangGraph‑style agentic workflows, tool‑calling, and multi‑step reasoning, demonstrating how autonomous and semi‑autonomous AI agents can retrieve information, make decisions, and generate context‑aware outputs. Designed as a portfolio hub for exploring real‑world AI engineering patterns, modular architectures, and production‑ready workflows.
